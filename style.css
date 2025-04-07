@@ -85,7 +85,7 @@ header {
 .register-btn:hover,
 .login-btn:hover {
   transform: scale(1.05);
-  background:var(--primary-color);
+  background: var(--primary-color);
 }
 
 .logo a {
@@ -100,6 +100,27 @@ header {
 
 .logo span {
   color: var(--primary-color);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.navbar ul li a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: var(--transition);
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  color: var(--primary-color);
+  outline: none;
 }
 
 .hero {
